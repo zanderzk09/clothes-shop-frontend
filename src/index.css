@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  margin-bottom: 60px;
+}
+
+.background {
+  background-color: hsla(0, 0%, 0%, 0.8);
+  background-image: url('assets/app/ghostPort.webp');
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  min-height: 100vh;
+}
+
+.categoriesBackground {
+  background-color: hsla(0, 0%, 0%, 0.8);
+  background-image: url('assets/app/OG.jpeg');
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  min-height: 100vh;
+}
+
+@keyframes slide-loop {
+  0% {
+      transform: translateX(0); /* Inicio: sin traslación */
+  }
+  50% {
+      transform: translateX(-20px); /* Mitad: traslación completa hacia la izquierda */
+  }
+  100% {
+      transform: translateX(40); /* Final: regreso a la posición inicial */
+  }
+}

@@ -1,4 +1,4 @@
 
-export * from './aboutPage';
-export * from './categoriesPage';
-export * from './contactPage';
+export * from './AboutPage';
+export * from './CategoriesPage';
+export * from './ContactPage';
